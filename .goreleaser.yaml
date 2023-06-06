@@ -3,9 +3,9 @@ before:
     - go mod tidy
 
 builds:
-  - id: hello
-    binary: hello
-    main: ./cmd/hello
+  - id: example
+    binary: example
+    main: ./cmd/example
     env:
       - CGO_ENABLED=0
     goos:
