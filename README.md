@@ -38,7 +38,7 @@ Tests are run automatically on Pull Requests and Push events:
 
 * Step 1: push your changes
 ```
-git add main.py
+git add main.go
 git commit "feat: adding an awesome feature"
 git push
 ```
