@@ -261,6 +261,7 @@ linters-settings:
     - name: unreachable-code
     - name: useless-break
     - name: waitgroup-by-value
+    - name: unused-parameter
     severity: error
 
   rowserrcheck:
