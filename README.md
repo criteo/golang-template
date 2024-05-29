@@ -45,7 +45,7 @@ git push
 * Step 2: merge the related PR from the GitHub web UI
 * Step 3: add a new tag
 ```
-git tags         # get the list of existing tags
+git tag          # get the list of existing tags
 git tag v0.0.2   # create a tag on the current local HEAD
 git push --tags  # push only the tag to GitHub
 ```
