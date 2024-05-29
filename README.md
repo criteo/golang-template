@@ -36,6 +36,10 @@ Tests are run automatically on Pull Requests and Push events:
 
 ## Releases
 
+* Prerequisite:
+For github projects under Criteo organisation, make sure to have cloned your project in ssh mode,
+else you will get a 403 when pushing tags.
+
 * Step 1: push your changes
 ```
 git add main.go
@@ -45,7 +49,7 @@ git push
 * Step 2: merge the related PR from the GitHub web UI
 * Step 3: add a new tag
 ```
-git tags         # get the list of existing tags
+git tag          # get the list of existing tags
 git tag v0.0.2   # create a tag on the current local HEAD
 git push --tags  # push only the tag to GitHub
 ```
