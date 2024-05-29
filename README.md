@@ -36,6 +36,10 @@ Tests are run automatically on Pull Requests and Push events:
 
 ## Releases
 
+* Prerequisite:
+For github projects under Criteo organisation, make sure to have cloned your project in ssh mode,
+else you will get a 403 when pushing tags.
+
 * Step 1: push your changes
 ```
 git add main.go
